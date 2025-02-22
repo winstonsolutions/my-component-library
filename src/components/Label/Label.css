@@ -1,0 +1,11 @@
+/* Add any styles for the Label component here */
+label {
+    font-weight: bold; /* Make the label text bold */
+    margin-right: 8px; /* Add some space to the right of the label */
+}
+
+label.disabled {
+    background-color: gray; /* Change background color when disabled */
+    color: lightgray; /* Change text color when disabled */
+    pointer-events: none; /* Prevent interaction when disabled */
+} 

@@ -1,0 +1,1 @@
+export { default } from './Card'; // Re-exporting the Card component 

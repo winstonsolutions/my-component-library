@@ -30,7 +30,10 @@ export default [
         outDir: "./dist",
         declaration: false  // 禁用 TypeScript 的声明文件生成
       }),
-      postcss(),
+      postcss({
+        extract: true, // Extracts CSS to a separate file
+        minimize: true, // Minifies CSS
+      }),
       terser()
     ],
     external: ["react", "react-dom"]
@@ -44,6 +47,6 @@ export default [
     plugins: [dts({
       respectExternal: true
     })],
-    external: ["react", "react-dom"]  // 确保也在类型定义中排除外部依赖
+    external: [/\.css$/]  // 确保也在类型定义中排除外部依赖
   }
 ];

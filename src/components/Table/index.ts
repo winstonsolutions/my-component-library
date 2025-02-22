@@ -1,0 +1,1 @@
+export { default } from './Table'; // Re-export the Table component for easier imports 

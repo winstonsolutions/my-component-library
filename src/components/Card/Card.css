@@ -1,0 +1,22 @@
+.card {
+    border: 1px solid #ccc; /* Border around the card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding inside the card */
+    margin: 16px; /* Margin outside the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    background-color: white; /* Default background color */
+}
+
+.card.disabled {
+    background-color: #f0f0f0; /* Darker gray background color when disabled */
+    opacity: 0.6; /* Make it slightly transparent */
+}
+
+.card-title {
+    font-size: 1.5em; /* Font size for the title */
+    margin-bottom: 8px; /* Space below the title */
+}
+
+.card-content {
+    font-size: 1em; /* Font size for the content */
+} 
