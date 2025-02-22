@@ -4,17 +4,22 @@
 To install the component library, use npm or yarn:
 
 Using npm
+```bash
 npm install @winstonsolutions/my-component-library
+```
 
 Using yarn
+```bash
 yarn add @winstonsolutions/my-component-library
+```
 
 ## Usage
 To use the components in your project, import them as follows:
 
-javascript
+```javascript
 import { Dropdown } from 'my-component-library';
 // Now you can use the Dropdown component in your JSX
+```
 
 ## Components
 
