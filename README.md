@@ -4,10 +4,10 @@
 To install the component library, use npm or yarn:
 
 Using npm
-npm install my-component-library
+npm install @winstonsolutions/my-component-library
 
 Using yarn
-yarn add my-component-library
+yarn add @winstonsolutions/my-component-library
 
 ## Usage
 To use the components in your project, import them as follows:
