@@ -17,20 +17,22 @@ import { Dropdown } from 'my-component-library';
 // Now you can use the Dropdown component in your JSX
 
 ## Components
+
 This library includes the following components:
-Button
-Label
-Text
-Dropdown
-Table
-TableCell
-TableHeader
-TableRow
-TableFooter
-Radio Button
-Img
-Hero Image
-Card
+
+*   Button
+*   Label
+*   Text
+*   Dropdown
+*   Table
+    *   TableCell
+    *   TableHeader
+    *   TableRow
+    *   TableFooter
+*   Radio Button
+*   Img
+*   Hero Image
+*   Card
 
 ## Contributing
 If you would like to contribute to this library, please follow these steps:
